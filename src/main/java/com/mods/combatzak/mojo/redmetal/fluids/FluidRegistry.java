@@ -17,17 +17,16 @@ public class FluidRegistry {
      */
     public static FluidMolten redMetal;
 
-    public static BlockMolten blockRedMetal;
-
     public static void registerFluids() {
         net.minecraftforge.fluids.FluidRegistry.enableUniversalBucket();
 
-        redMetal = new FluidMolten("redmetal", 0xF00912, FluidMolten.ICON_LiquidStill, FluidMolten.ICON_LiquidFlowing);
+        redMetal = new FluidMolten("redmetal", 0xFFBC0912, FluidMolten.ICON_LiquidStill, FluidMolten.ICON_LiquidFlowing);
         redMetal.setTemperature(575);
         redMetal.setRarity(EnumRarity.RARE);
 
         redMetal.setUnlocalizedName(Util.prefix(redMetal.getName()));
         net.minecraftforge.fluids.FluidRegistry.registerFluid(redMetal);
-        blockRedMetal = TinkerFluids.registerMoltenBlock(ForgeRegistries.BLOCKS, redMetal);
+
+        net.minecraftforge.fluids.FluidRegistry.addBucketForFluid(redMetal);
     }
 }
