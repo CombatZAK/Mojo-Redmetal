@@ -15,9 +15,19 @@ import org.apache.logging.log4j.Logger;
  */
 @Mod(modid = RedMetal.MODID, useMetadata = true)
 public class RedMetal {
+    static {
+        net.minecraftforge.fluids.FluidRegistry.enableUniversalBucket();
+    }
+
     public static final String MODID = "mojo-redmetal";
 
     public static Logger logger;
+
+    public RedMetal() {
+    }
+
+    @Mod.Instance
+    public static RedMetal instance;
 
     @SidedProxy(serverSide = "com.mods.combatzak.mojo.redmetal.CommonProxy", clientSide = "com.mods.combatzak.mojo.redmetal.client.ClientProxy")
     public static CommonProxy proxy;

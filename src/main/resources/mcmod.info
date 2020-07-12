@@ -10,7 +10,7 @@
   "authorList": ["CombatZAK"],
   "credits": "MrTJP for Project-Red; mDiyo and the Tinkers Construct team; and TeamCoFH for Thermal Foundation",
   "logoFile": "",
-  "useDependencyInformation" true,
+  "useDependencyInformation": true,
   "requiredMods": ["projectred-core", "tconstruct", "thermalfoundation"],
   "screenshots": [],
   "dependencies": ["projectred-core", "tconstruct", "thermalfoundation"]

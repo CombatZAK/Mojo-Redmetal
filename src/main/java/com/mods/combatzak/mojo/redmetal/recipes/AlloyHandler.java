@@ -17,5 +17,7 @@ public class AlloyHandler extends HandlerBase {
         TinkerRegistry.registerAlloy(new FluidStack(FluidRegistry.redMetal, 144), new FluidStack(TinkerFluids.copper, 288), new FluidStack(TFFluids.fluidRedstone, 300));
         TinkerRegistry.registerAlloy(new FluidStack(FluidRegistry.redMetal, 144), new FluidStack(TinkerFluids.tin, 432), new FluidStack(TFFluids.fluidRedstone, 200));
         TinkerRegistry.registerAlloy(new FluidStack(FluidRegistry.redMetal, 144), new FluidStack(TinkerFluids.aluminum, 576), new FluidStack(TFFluids.fluidRedstone, 100));
+        TinkerRegistry.registerAlloy(new FluidStack(FluidRegistry.redMetal, 288), new FluidStack(TinkerFluids.silver, 288), new FluidStack(TFFluids.fluidRedstone, 100));
+        TinkerRegistry.registerAlloy(new FluidStack(FluidRegistry.redMetal, 144), new FluidStack(TinkerFluids.gold, 288), new FluidStack(TFFluids.fluidRedstone, 100));
     }
 }

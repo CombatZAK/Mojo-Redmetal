@@ -18,7 +18,6 @@ public class FluidRegistry {
     public static FluidMolten redMetal;
 
     public static void registerFluids() {
-        net.minecraftforge.fluids.FluidRegistry.enableUniversalBucket();
 
         redMetal = new FluidMolten("redmetal", 0xFFBC0912, FluidMolten.ICON_LiquidStill, FluidMolten.ICON_LiquidFlowing);
         redMetal.setTemperature(575);
