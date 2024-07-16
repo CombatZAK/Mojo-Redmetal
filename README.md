@@ -1,2 +1,2 @@
 # Mojo-Redmetal
-Readding compat for ProjectRed in 1.12.2
+Readding compat for ProjectRed in 1.19.2
