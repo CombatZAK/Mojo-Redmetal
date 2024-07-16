@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "mojo_redmetal:redmetal",
+      "required": false
+    },
+    {
+      "id": "mojo_redmetal:flowing_redmetal",
+      "required": false
+    }
+  ]
+}
